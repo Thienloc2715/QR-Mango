@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tra cứu Nông sản</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Tra cứu thông tin sản phẩm</h1>
+        <div id="qr-reader"></div>
+        <div id="status-message" class="hidden"></div>
+
+        <div id="product-info" class="hidden">
+            <h2 id="product-name"></h2>
+            <p><strong>Giá bán hiện tại:</strong> <span id="product-price"></span> <span id="product-currency"></span></p>
+            <p><strong>Giống:</strong> <span id="variety-name"></span></p>
+            <p><strong>Nguồn gốc:</strong> <span id="variety-origin"></span></p>
+            <p><strong>Nông trại:</strong> <span id="farm-name"></span> (<span id="farm-address"></span>)</p>
+            <p><strong>Ngày thu hoạch:</strong> <span id="harvest-date"></span></p>
+            <p><strong>Hạn sử dụng:</strong> <span id="expiry-date"></span></p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tra cứu Nông sản</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Tra cứu thông tin nông sản</h1>
+        <div id="qr-reader"></div>
+        <div id="scan-result" class="hidden"></div>
+
+        <div id="product-info" class="hidden">
+            <h2 id="product-name">Tên sản phẩm</h2>
+            <p><strong>Giá:</strong> <span id="product-price"></span> VNĐ</p>
+            <p><strong>Mô tả:</strong> <span id="product-description"></span></p>
+            <p><strong>Nông trại:</strong> <span id="farm-name"></span></p>
+            <p><strong>Loại:</strong> <span id="category-name"></span></p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+    <script src="app.js"></script>
+</body>
+</html> -->
